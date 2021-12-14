@@ -1,7 +1,7 @@
 {
-  "homepage": "https://aishwarode17.github.io/Robosapian",
-  "name": "obi",
-  "version": "1.0.2",
+  
+  "name": "glympseofai",
+  "version": "3.0.2",
   "private": true,
   "dependencies": {
     "@tensorflow-models/mobilenet": "^2.1.0",
