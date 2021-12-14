@@ -20,12 +20,12 @@ export default function App() {
     <div className='App'>
      <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Homepage/>}></Route>
+        <Route path="/Robosapian" element={<Homepage/>}></Route>
         <Route path="/Game" element={<Game />} />
         <Route path="/Weather" element={<Weather />} />
         <Route path="/Gender" element={<Gender />} />
         <Route path="/About" element={<About />} />
-        <Route path="/Entry" element={<Entry />} />
+        <Route path="/" element={<Entry />} />
         <Route path="/Register" element={<RegEntry />} />
       </Routes>
     </BrowserRouter>

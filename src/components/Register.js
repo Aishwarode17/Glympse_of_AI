@@ -26,10 +26,10 @@ export default function Register({onRouteChange}) {
                     </div>
                     </fieldset>
                     <div className="">
-                    <Link style={{fontSize:"X-large",fontWeight:"bold", textDecoration:"none", color:"black"}} className="transhtmlForm link+ ba pa1 dim grow shadow-4"  to={"/"}>Register</Link>
+                    <Link style={{fontSize:"X-large",fontWeight:"bold", textDecoration:"none", color:"black"}} className="transhtmlForm link+ ba pa1 dim grow shadow-4"  to={"/Robosapian"}>Register</Link>
                     </div>
                     <div className="lh-copy mt3">
-                    <Link className=" dim link" style={{color:"blue",fontSize:"X-large",fontWeight:"bold", textDecoration:"underline"}}   to={"/Entry"}>Sign in</Link>
+                    <Link className=" dim link" style={{color:"blue",fontSize:"X-large",fontWeight:"bold", textDecoration:"underline"}}   to={"/"}>Sign in</Link>
                     </div>
                     <div className='mt3'>
                         <h3 className='white'>Please go back and sign in via google to get registered in our database for future updates</h3>

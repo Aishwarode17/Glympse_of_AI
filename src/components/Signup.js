@@ -21,7 +21,7 @@ export default function Signup({googleSignin}) {
                     </div>
                     </fieldset>
                     <div className="lh-copy mt3">
-                    <Link style={{fontSize:"X-large",fontWeight:"bold", textDecoration:"none", color:"black"}} className="transhtmlForm link+ ba pa1 dim grow shadow-4"  to={"/"}>Signin</Link>
+                    <Link style={{fontSize:"X-large",fontWeight:"bold", textDecoration:"none", color:"black"}} className="transhtmlForm link+ ba pa1 dim grow shadow-4"  to={"/Robosapian"}>Signin</Link>
                     </div>
                     <div className="lh-copy mt3">
                     <Link style={{color:"blue",fontSize:"X-large",fontWeight:"bold", textDecoration:"underline"}} className="nav-link dim link "  to={"/Register"}>Register</Link>

@@ -25,7 +25,7 @@ function Entry() {
 
             if(re.user.displayName.split(" ")[0]){
 
-                userName = re.user.displayName.split(" ")[0];
+                userName = re.user.displayName;
                 console.log(userName);
                 console.log("works")
             }
@@ -37,7 +37,7 @@ function Entry() {
 
 
     if (isLoggedIn) {
-        return <Navigate to='/' />
+        return <Navigate to='/Robosapian' />
        }
 
     return (

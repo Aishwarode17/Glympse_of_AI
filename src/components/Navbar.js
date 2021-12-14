@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="offcanvas-body">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
         <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" style={{color:"white",fontSize:"X-large",fontWeight:"bold"}} to={"/"}>Home</Link>
+            <Link className="nav-link active" aria-current="page" style={{color:"white",fontSize:"X-large",fontWeight:"bold"}} to={"/Robosapian"}>Home</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link active" style={{color:"white",fontSize:"X-large",fontWeight:"bold"}} aria-current="page" to={"/Weather"}>Weather</Link>
@@ -35,7 +35,7 @@ export default function Navbar() {
             <Link className="nav-link" to={"/About"} style={{color:"white",fontSize:"X-large",fontWeight:"bold"}}>About</Link>
           </li>     
           <li className="nav-item">
-          <Link style={{fontSize:"X-large",fontWeight:"bold", textDecoration:"none", color:"black"}} className="transhtmlForm link+ ba pa1 dim grow shadow-4"  to={"/Entry"}>Signout</Link>
+          <Link style={{fontSize:"X-large",fontWeight:"bold", textDecoration:"none", color:"black"}} className="transhtmlForm link+ ba pa1 dim grow shadow-4"  to={"/"}>Signout</Link>
 
           </li>
           </ul>
