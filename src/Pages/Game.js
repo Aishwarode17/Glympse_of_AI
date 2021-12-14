@@ -9,7 +9,7 @@ export default function Game() {
 
     const generate = () =>{
 
-            fetch(`http://api.icndb.com/jokes/random`).then(
+            fetch(`https://api.icndb.com/jokes/random`).then(
                 response => response.json()
             ).then(
                 data => setJoke(data.value.joke)
