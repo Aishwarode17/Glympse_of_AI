@@ -10,10 +10,10 @@ export default function Partistl() {
               params={{
                 "particles": {
                     "number": {
-                        "value": 40
+                        "value": 79
                     },
                     "size": {
-                        "value": 2
+                        "value": 7
                     }
                 }
               }} />

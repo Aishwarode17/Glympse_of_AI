@@ -1,0 +1,26 @@
+@media screen and (max-width:400px){
+    .smscr{
+        width:100%;
+    }
+
+    .btnd{
+        font-size: small;
+        
+        
+    }
+}
+
+@media screen and (max-width:800px){
+    .tk{
+        font-size: x-small;
+    
+    }
+
+}
+
+@media screen and (max-width:800px){
+    .tk{
+        font-size: xx-small;
+    }
+    
+}

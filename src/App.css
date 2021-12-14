@@ -37,4 +37,11 @@ li{
 }
 
 
+.fixed-top{
+    position: sticky;
+    top:0px;
+}
 
+.transform:hover{
+    transform: scale(1.1);
+}

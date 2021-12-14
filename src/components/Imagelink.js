@@ -13,7 +13,7 @@ export default function Imagelink({typechange,press,imghandle,placeHolder,value}
             </p>
             <div className="center mt2">
                 <div className=" pa4 br3 shadow-5 smscr ">
-                <input id='pholder' type="text" value={value} onChange={typechange} className="f4 pa2 w-100 center" placeholder={placeHolder} />
+                <input id='pholder' type="text" value={value} onChange={typechange} className="f4 pa2 mb2 w-100 center" placeholder={placeHolder} />
                 <div className='center w-70'>
                 <button onClick={press} className="shadow-1 center w-40 btnd grow f4 link ph3 pv2 white line bg-light-purple">detect</button>
                 <input onChange={imghandle} hidden type="file" id="inp" name="image_upload" accept="image/*"></input>
